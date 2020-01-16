@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculador</title>
+    <script>
+    
+    </script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="corpo">
+        <form name="form">
+            <input class="textview" id="textview" name="textview">
+        </form>
+        <table>
+            <tr>
+                <input class="upbutton left" onclick="limpar()" type="button" value="Clear">
+                <input class="upbutton gambirra" onclick="apagar()" type="button" value="Backspace">
+            </tr>
+            <tr>
+                <td><input class="button left" onclick="insert(this)" type="button" value="7"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="8"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="9"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="+"></td>
+            </tr>
+            <tr>
+                <td><input class="button left" onclick="insert(this)" type="button" value="4"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="5"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="6"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><input class="button left" onclick="insert(this)" type="button" value="1"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="2"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="3"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="*"></td>
+            </tr>
+            <tr>
+                <td><input class="button left" onclick="insert(this)" type="button" value="."></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="0"></td>
+                <td><input class="button" onclick="insert(this)" type="button" value="/"></td>
+                <td><input id="igual" class="button" onclick="equal()" type="button" value="="></td>
+            </tr>
+        </table>
+    </div>
+
+<script src="bundle.js">
+</script>
+</body>
+</html>

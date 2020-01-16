@@ -1,0 +1,39 @@
+.limpar {
+    height: 35px;
+    width: 300px;
+    margin: 15px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.corpo {
+    margin: 50px;
+    height: 550px;
+    width: 350px;
+    background-color: rgb(177, 255, 251);
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 10px;
+}
+
+.tela {
+    padding: 10px;
+    text-align: end;
+    margin: 15px;
+    margin-top: 35px;
+    height: 80px;
+    width: 300px;
+    background-color: #fff;
+    border: 2px solid rgb(116, 116, 116);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tecla{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    background-color: rgb(42, 105, 95);
+    color: #fff;
+    border: rgb(42, 105, 95);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(0, 101, 148), rgb(187, 57, 238));
+    padding-left: 33%;
+}
+
+.corpo{
+    background-color: #EC7545;
+    width: 250px;
+    height: 370px;
+    margin-top: 50px;
+    border: rgb(100, 236, 218);
+    border-radius: 10px;
+    
+}
+
+.button {
+    width: 45px;
+    height: 40px;
+    font-size: 25px;
+    background-color: #B82677;
+    border: #B82677;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.upbutton {
+    width: 90px;
+    height: 30px;
+    margin: 2px;
+    background-color: #B82677;
+    border: #B82677;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+.gambirra {
+    margin-left: 25px;
+}
+
+.textview {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 15px;
+    text-align: end;
+    margin: 2px;
+    border: #B82677;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 23px;
+}
